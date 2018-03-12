@@ -42,7 +42,6 @@ class JUnitPractice {
 		proof.setArrayEquals(testArray);
 		assertArrayEquals(testArray, proof.getArrayEquals());
 		
-		
 		//other test data
 		String str1 = new String ("123");
 		String str2 = new String ("123");

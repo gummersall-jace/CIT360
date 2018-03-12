@@ -1,8 +1,5 @@
 package edu.gummersall.JUnit;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
 public class JUnitProof {
 		
 	    // Attributes
