@@ -7,7 +7,43 @@ class JUnitPractice {
 	
 	@Test
 	void test() {
-		//test data
+		JUnitProof proof = new JUnitProof();
+		
+		//assertEquals
+		proof.setEquals("12");
+		assertEquals("12", proof.getEquals());
+		
+		//assertTrue
+		proof.setYes(true);
+		assertTrue (proof.getYes());
+		
+		//assertFalse
+		proof.setNo(false);
+		assertFalse(proof.getNo());
+		
+		//assertNotNull
+		proof.setNotNull("Not Null");
+		assertNotNull(proof.getNotNull());
+		
+		//assertNull
+		proof.setYesNull(null);
+		assertNull(proof.getYesNull());
+		
+		//assertSame
+		proof.setSame(123123);
+		assertSame(123123,proof.getSame());
+		
+		//assertNotSame
+		proof.setNotSame(123.456);
+		assertNotSame(123.467,proof.getNotSame());
+		
+		//assertArrayEquals
+		String[] testArray = {"1","2", "3","4", "5"};
+		proof.setArrayEquals(testArray);
+		assertArrayEquals(testArray, proof.getArrayEquals());
+		
+		
+		//other test data
 		String str1 = new String ("123");
 		String str2 = new String ("123");
 		String str3 = null;
