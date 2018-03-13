@@ -1,7 +1,7 @@
 package edu.gummersall.ACP;
 
 public class ApplicationControllerPattern {
-	private Handler handler = new Handler();
+	private HandlerExample handler = new HandlerExample();
 	
 	private boolean isAuthenticUser(String username, String password) {
 		System.out.println(username);

@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class LoginExample {
 
 	public static void main(String[] args) {
+		
+		
+		
 		Scanner input = new Scanner(System.in);
 		System.out.println("(For example must be user)");
 		System.out.println("Username: ");
