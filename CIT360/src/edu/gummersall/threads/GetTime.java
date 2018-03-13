@@ -11,7 +11,7 @@ public class GetTime extends Thread {
 		ExecutorService executor = Executors.newSingleThreadExecutor();
 		executor.submit(() -> {
 		    String threadName = Thread.currentThread().getName();
-		    System.out.println("Hello " + threadName);
+		    //System.out.println("Hello " + threadName);
 		});
 		
 		// Creating fields that will contain date info
@@ -23,7 +23,7 @@ public class GetTime extends Thread {
 		String dateOutput;
 		
 		// Output the current date and time 20 times
-		for(int i = 1; i <= 20; i++){
+		for(int i = 1; i <= 10; i++){
 		
 			// A Date object contains date and time data
 			rightNow = new Date();
